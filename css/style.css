@@ -1,8 +1,13 @@
+*{
+  /* border: 1px solid red; */
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 body {
+  
   font-family: 'Poppins', sans-serif;
   position: relative; 
   overflow-x: hidden;
@@ -625,9 +630,18 @@ body {
   z-index: 0;
 }
 .bigblob1{
+  /* border: 1px solid red; */
   scale:200%;
   right:-100px;
   top: 700px;
+  position: absolute;
+  filter:blur(10px);
+  opacity: 0.5;
+}
+.bigblob5{
+  scale:200%;
+  left:-100px;
+  top: 450px;
   position: absolute;
   filter:blur(10px);
   opacity: 0.5;
