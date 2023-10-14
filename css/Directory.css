@@ -13,7 +13,7 @@
 body {
     font-family: "Poppins","Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     width: 100%;
-    height: 800vh;
+    height: 850vh;
     position:static; 
     overflow-x: hidden;
     padding: 0;
@@ -388,7 +388,7 @@ box-shadow:
   
   position: absolute;
   /* border: 1px solid red; */
-  top: 4390px;
+  top: 4690px;
   /* left:20%; */
   margin: auto;
   width: 100%;
@@ -572,6 +572,11 @@ box-shadow:
   box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
 }
 
+
+.footerDirectory{
+  position: absolute;
+  bottom: 0px;
+}
 
 .image-part{
  height: 210px;
