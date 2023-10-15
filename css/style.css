@@ -4,6 +4,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #082F4E;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00559b;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #004f76;
+}
+
+
+
 body {
   font-family: 'Poppins', sans-serif;
   position: relative; 
@@ -1360,22 +1382,61 @@ width: 100%;}
 @media screen and (max-width: 420px) {
 
   body{
-    height: 1000vh;
+    height: 336vh;
   }
+
+  .club-text{
+    position: absolute;
+    top:200px !important;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .logo1{
+    /* border: 1px solid red; */
+    position: absolute;
+    top:50px !important;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+  }
+  .logo9{
+    /* border: 1px solid red; */
+    position: absolute;
+    top:50px !important;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+  }
+
+  #box2{
+    position: absolute;
+    top:250px !important;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
 
 
   .welcome1{
-    top:890px;
+    top:1090px;
   }
   .body1{
-    top: 920px;
+    top: 1100px;
   }
   .welcome2{
     font-size: 90px;
-    top: 1300px;
+    top: 1600px;
   }
+
+  #box1{
+    top: 1800px;
+  }
+
+  
   .xv{
-    top:1600px;
+    top:2400px;
   }
   
 }
