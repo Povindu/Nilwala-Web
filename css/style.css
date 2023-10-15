@@ -1411,10 +1411,19 @@ width: 100%;}
   }
 
   #box2{
+    width: 80%;
     position: absolute;
     top:250px !important;
     left: 50%;
     transform: translate(-50%, 0);
+  }
+
+  #box2 p{
+    font-size: 18px !important;
+  }
+
+  .xbutton a{
+    font-size: 20px !important;
   }
 
   .card h2{
