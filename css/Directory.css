@@ -13,7 +13,7 @@
 body {
     font-family: "Poppins","Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     width: 100%;
-    height: 850vh;
+    height: 920vh;
     position:static; 
     overflow-x: hidden;
     padding: 0;
@@ -62,7 +62,7 @@ a {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat; 
-    background-image: linear-gradient(#082F4E, #0C0E1E);
+    background-image: linear-gradient(#003055, #0C0E1E,#082F4E);
     height: 100%;
     justify-content: space-between;
   
@@ -387,26 +387,34 @@ box-shadow:
  .artical7{
   
   position: absolute;
-  /* border: 1px solid red; */
+  
   top: 4690px;
   /* left:20%; */
   margin: auto;
   width: 100%;
   text-align: center;
+  
  }
+ 
 
  .directors{
+  color: #D9F4FF;
+  /* border: 1px solid red !important; */
+  border-radius: 63px;
+  border: 2px solid #00D1FF;
+  background: rgba(0, 30, 56, 0.132);
+  border-radius: 45px;
+  padding: 20px;
+  padding-top: 50px;
   margin: auto;
-  width: 80%;
+  width: 90%;
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
  }
 
 
  .artical7 h2{
-  /* width:60%; */
-  /* border: 1px solid red; */
   color: rgb(211, 211, 211);
   font-size: 50px; 
   line-height: 4;
@@ -414,13 +422,15 @@ box-shadow:
   }
 
  .artical7 h1{
-  /* width:60%; */
-  /* border: 1px solid red; */
-  color: rgb(211, 211, 211);
+  color: #D9F4FF;
+  border-radius: 63px;
+  border: 2px solid #00D1FF;
+  background: rgba(0, 30, 56, 0.77);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
   font-size: calc(10px + 0.5vw); 
-  /* line-height: 0.8; */
-  /* padding-left: 30%; */
-  /* text-align: left; */
+
 }
 
  .artical6-1{
@@ -483,13 +493,13 @@ box-shadow:
 .container .card:hover .face.face1{
   transform: translateY(0);
   box-shadow:
-    inset 0 0 60px whitesmoke,
-    inset 20px 0 80px #f0f,
+    inset 0 0 60px rgb(201, 253, 255),
+    inset 20px 0 80px rgb(0, 153, 255),
     inset -20px 0 80px #0ff,
-    inset 20px 0 300px #f0f,
+    inset 20px 0 300px rgb(0, 89, 255),
     inset -20px 0 300px #0ff,
     0 0 50px #fff,
-    -10px 0 80px #f0f,
+    -10px 0 80px rgb(0, 85, 255),
     10px 0 80px #0ff;
    
 }
@@ -573,12 +583,29 @@ box-shadow:
 }
 
 
-.footerDirectory{
-  position: absolute;
-  bottom: 0px;
-}
+
 
 .image-part{
  height: 210px;
+}
+
+.footer{
+  /* border: 1px solid red; */
+  top:6500px;
+  position: absolute;
+  color: white;
+  width: 100%;
+}
+
+.footer div{
+  /* border: 1px solid blue; */
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.footlogo img{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
