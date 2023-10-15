@@ -10,7 +10,7 @@
 }
 
 body{
-
+  background-color: #003055;
   font-family: "Poppins", "Open Sans", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -307,8 +307,6 @@ a:hover {
     border: 2px solid #03b3c7;
   }
 
-  .nationalFlag{
-  }
 
   .nationalFlag img{
     width: auto;
@@ -318,8 +316,13 @@ a:hover {
 }
 @media screen and (max-width: 768px) {
 
+  .blob2{
+    display: none;
+  }
+
+
   body{
-    height: 1360vh;
+    height: 1400vh;
   }
 
   .containerX{
@@ -332,6 +335,9 @@ a:hover {
     top:1400px !important;
   }
 
+  .logo2{
+    height: 180px !important;
+  }
   .artical3{
     left: 50% !important;
     top:2200px !important;
@@ -341,7 +347,10 @@ a:hover {
     left: 50% !important;
     top:3200px !important;
   }
-  
+  .text4 p{
+    font-size: 13px !important;
+  }
+
   .logo4{
     padding-left: 30px;
   }
@@ -367,6 +376,7 @@ a:hover {
   }
 
   .artical7 h2{
+    margin-bottom: 50px;
     line-height: 1.1 !important;
   }
 

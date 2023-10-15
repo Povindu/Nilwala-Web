@@ -1358,6 +1358,12 @@ width: 100%;}
   }
 }
 @media screen and (max-width: 420px) {
+
+  body{
+    height: 1000vh;
+  }
+
+
   .welcome1{
     top:890px;
   }
