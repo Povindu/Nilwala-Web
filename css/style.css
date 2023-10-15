@@ -915,10 +915,11 @@ body {
   align-items: center;
 }
 .carousel .card {
+  
   scroll-snap-align: start;
   height: 342px;
   list-style: none;
-  background: #002747B2;
+  background: #002747B2 !important;
   cursor: pointer;
   padding-bottom: 15px;
   flex-direction: column;
