@@ -508,6 +508,16 @@ a:hover {
   /* box-shadow: #0C0E1E 0 0 0 0; */
   /* filter: drop-shadow(10px 1px 15px #5eb3bc); */
 }
+
+.logo5{
+  height: 350px;
+  margin-bottom: 30px;
+}
+
+.logo-text h1{
+  /* font-weight: 500 !important; */
+}
+
 .text3 {
   color: #ffffff;
 }
@@ -537,6 +547,11 @@ a:hover {
   display: flex;
   justify-content: center;
   width: 100%;
+  
+}
+
+.artical5 h2{
+  font-size: 25px;
 }
 
 /*-----------------------------------------------------------------------*/
@@ -738,7 +753,8 @@ a {
 }
 .containerX .card .face.face2 .content .post {
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 400;
+  /* font-weight: bold; */
   color: black;
 }
 .containerX .card .face.face2 .content .name {

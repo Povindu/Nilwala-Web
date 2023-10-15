@@ -1417,9 +1417,15 @@ width: 100%;}
     transform: translate(-50%, 0);
   }
 
+  .card h2{
+    font-size: 20px !important;
+  }
 
-
+  .footer-text{
+    font-size: 15px !important;
+  }
   .welcome1{
+    font-size: 40px;
     top:1090px;
   }
   .body1{
