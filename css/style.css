@@ -8,23 +8,18 @@
 ::-webkit-scrollbar {
   width: 5px;
 }
-
 /* Track */
 ::-webkit-scrollbar-track {
   background: #082F4E;
 }
-
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #00559b;
 }
-
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #004f76;
 }
-
-
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -1354,10 +1349,6 @@ width: 100%;}
         font-weight: 300;
         text-transform: capitalize;
     }
-    /* #shadow1{
-      top: 1400px;
-    } */
-
 } 
 @media screen and (max-width: 580px) {
   .welcome2{
